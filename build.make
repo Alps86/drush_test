@@ -22,6 +22,11 @@ projects[test_panopoly][download][branch] = "master"
 projects[drupal][version] = 7.22
 
 ;
+; Minimal Theme
+;
+projects[mothership][type] = "theme"
+
+;
 ; The Panopoly Foundation
 
 projects[panopoly_core][version] = 1.0-rc5
