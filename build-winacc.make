@@ -13,7 +13,7 @@ api = 2
 ;
 projects[test_panopoly][type] = profile
 projects[test_panopoly][download][type] = "git"
-projects[test_panopoly][download][url] = "git://github.com/i-jk/test_panopoly.git"
+projects[test_panopoly][download][url] = "https://github.com/Alps86/drush_test"
 projects[test_panopoly][download][branch] = "master"
 
 ;
