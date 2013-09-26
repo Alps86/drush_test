@@ -41,14 +41,14 @@ function test_panopoly_form_install_configure_form_alter(&$form, $form_state) {
   drupal_get_messages('warning');
 
   // Set reasonable defaults for site configuration form
-  $form['site_information']['site_name']['#default_value'] = 'WinACC';
-  $form['admin_account']['account']['name']['#default_value'] = 'WinACC Admin';
-  $form['server_settings']['site_default_country']['#default_value'] = 'UK';
-  $form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/London'; // West coast, best coast
+  $form['site_information']['site_name']['#default_value'] = 'Test Install';
+  $form['admin_account']['account']['name']['#default_value'] = 'admin';
+  $form['server_settings']['site_default_country']['#default_value'] = 'DE';
+  $form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/Berlin'; // West coast, best coast
 
   // Define a default email address if we can guess a valid one
-  $form['site_information']['site_mail']['#default_value'] = 'website@winacc.org.uk';
-  $form['admin_account']['account']['mail']['#default_value'] = 'winacc@i-jk.co.uk';
+  $form['site_information']['site_mail']['#default_value'] = '';
+  $form['admin_account']['account']['mail']['#default_value'] = '';
 }
 
 

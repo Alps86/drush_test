@@ -1,6 +1,6 @@
 name = Test Panopoly
 distribution_name = Test Install
-description = WinACC profile: Based on Panopoly, with Kalatheme, Bootstrap, and i-JK goodies added.
+description = Test profile: Based on Panopoly...
 core = 7.x
 exclusive = 1
 
